@@ -1,0 +1,31 @@
+[general]
+project_name = "Milan"
+debug_mode = false
+
+[data]
+data_dir = "./data"  # Relative to project root
+medical_knowledge_base_path = "medical_knowledge_base.json"
+multimodal_training_data_path = "multimodal_training_data"
+mistral_fine_tuning_data_path = "mistral_fine_tuning_data.jsonl"
+word_embeddings_path = "word_embeddings.txt"
+
+[model]
+embedding_model_name = "sentence-transformers/all-mpnet-base-v2"
+vector_database_type = "faiss"  # Or "pinecone", "weaviate", etc.
+vector_database_path = "vectors.db" # If using a local vector database
+
+[multimodal]  # If applicable
+audio_sample_rate = 16000
+video_frame_rate = 30
+
+[ui]  # If applicable
+ui_port = 5000
+
+[api] # You can put default values here, but environment variables will override them
+# mistral_api_key = "YOUR_MISTRAL_API_KEY" # Better to keep in environment variables
+# huggingface_api_key = "YOUR_HUGGINGFACE_API_KEY" # Better to keep in environment variables
+# google_cloud_credentials = "path/to/your/credentials.json" # Better to keep in environment variables
+# nebius_api_key = "YOUR_NEBIUS_API_KEY" # Better to keep in environment variables
+
+
+# ... other sections and parameters as needed ...
