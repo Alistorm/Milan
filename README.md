@@ -31,14 +31,6 @@ Milan uses Mistral AI's large language model for natural language understanding 
 * **Other Technologies:** Python, React, relevant data visualization libraries
 
 
-## Team
-
-* **[Team Member 1 Name]:** Lead AI/ML Engineer, responsible for developing and integrating the Mistral AI model.
-* **[Team Member 2 Name]:** Frontend Developer, focused on building the user interface and user experience.
-* **[Team Member 3 Name]:** Backend Engineer, responsible for data integration, security, and cloud infrastructure.
-* **[Team Member 4 Name]:** Project Manager & UX Designer, in charge of project planning, user research, and design.
-
-
 ## Setup and Installation
 
 1. Clone the repository: `git clone [repository URL]`
