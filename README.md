@@ -4,6 +4,8 @@ Milan is our project for the Mistral AI x Alan Healthcare Hackathon, held in Par
 
 **Hackathon Link:** https://alaninsurance.notion.site/Mistral-AI-x-Alan-Hackathon-Event-Details-Hackers-11b1426e8be78025ac6fdee99f0dcac1
 
+**Pitch Link:** https://gamma.app/docs/Mi-lan-Your-Multimodal-AI-Healthcare-Companion-35pnb9y7puuloi7
+
 
 ## Project Description
 
