@@ -1,72 +1,92 @@
 # Milan - Mistral AI x Alan Healthcare Hackathon
 
-Milan is our project for the Mistral AI x Alan Healthcare Hackathon, held in Paris on October 12-13, 2024.  We're leveraging the power of Mistral AI and other cutting-edge technologies to [briefly describe your project and its goal - e.g., improve early diagnosis of X, personalize treatment plans for Y, etc.].
+Milan is our project for the Mistral AI x Alan Healthcare Hackathon, held in Paris on October 12-13, 2024. We're leveraging the power of Mistral AI and other cutting-edge technologies to create a multimodal AI-powered healthcare companion that simplifies healthcare navigation, provides personalized insights, and promotes proactive health management.
 
 **Hackathon Link:** https://alaninsurance.notion.site/Mistral-AI-x-Alan-Hackathon-Event-Details-Hackers-11b1426e8be78025ac6fdee99f0dcac1
 
 
 ## Project Description
 
-[Provide a more detailed explanation of your project. Explain the problem you're addressing, your proposed solution, and the core technologies you're using. Be specific about how you're using Mistral AI, and any other resources like Hugging Face, Google Cloud, or Nebius. Include diagrams or visuals if applicable.]
+Navigating the healthcare system can be complex and overwhelming.  Patients struggle with information overload, difficulty scheduling appointments, and often lack personalized support. Milan addresses these challenges by offering a multimodal AI companion that understands and responds to user needs through voice, text, and even facial expressions.  By integrating with patient health records and wearables, Milan provides tailored insights and recommendations for condition management, preventive care, and treatment adherence.
+
+Milan uses Mistral AI's large language model for natural language understanding and generation, enabling it to engage in natural conversations, answer health-related questions, and provide empathetic support.  Facial expression analysis using computer vision helps Milan understand the user's emotional state and tailor its responses accordingly.  Integration with health data platforms allows Milan to offer personalized insights and recommendations.
+
 
 ## Key Features
 
-* [List the key features and functionalities of your project, using bullet points. Be concise and highlight the most impactful aspects.]
+* Multimodal Interaction (voice, text, facial expressions)
+* Personalized health insights and recommendations
+* Integration with health records and wearables
+* Proactive health monitoring and alerts
+* Appointment scheduling and medication reminders
+* Secure and private data handling
+
 
 ## Technical Implementation
 
-* **Mistral AI:** [Specify how you're using the Mistral API and model.  Mention specific endpoints or functionalities if relevant. Note if you're using the free tier or if you've contacted organizers about exceeding the limits.]
-* **Hugging Face:** [Describe your usage of the Hugging Face workspace, models, or endpoints. Include links to your Hugging Face repository or Space if available.]
-* **Google Cloud:** [Explain how you're utilizing Google Cloud resources.]
-* **Nebius:** [Detail your use of the provided Nebius H100 GPU and other cloud resources.]
-* [Mention other technologies used (e.g., specific libraries, frameworks, datasets).]
+* **Mistral AI:** We utilize the Mistral API for natural language understanding and generation, powering Milan's conversational abilities.  We are currently using the free tier and will contact organizers if we exceed the usage limits.  We are primarily using the `/generate` endpoint for text generation.
+* **Hugging Face:** We use a Hugging Face Space to host and deploy our facial expression analysis model. [Link to Hugging Face Space - if applicable]
+* **Google Cloud:** We leverage Google Cloud for data storage and backend infrastructure to ensure scalability and reliability.
+* **Nebius:** We utilize the provided Nebius H100 GPU for computationally intensive tasks like model training and inference. We also use their object storage and network-attached storage.
+* **Other Technologies:** Python, React, relevant data visualization libraries
+
 
 ## Team
 
-* [List team member names and a brief description of their roles/contributions.]
+* **[Team Member 1 Name]:** Lead AI/ML Engineer, responsible for developing and integrating the Mistral AI model.
+* **[Team Member 2 Name]:** Frontend Developer, focused on building the user interface and user experience.
+* **[Team Member 3 Name]:** Backend Engineer, responsible for data integration, security, and cloud infrastructure.
+* **[Team Member 4 Name]:** Project Manager & UX Designer, in charge of project planning, user research, and design.
+
 
 ## Setup and Installation
 
-[Provide clear and concise instructions on how to set up and run your project locally. Include any dependencies or prerequisites.]
+1. Clone the repository: `git clone [repository URL]`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Set up environment variables:  Create a `.env` file and add your API keys and credentials for Mistral AI, Google Cloud, etc.
+4. Run the application: `python app.py`
 
 
 ## Usage
 
-[Explain how to use your project after installation. Provide examples or scenarios to illustrate the typical workflow.]
+1. Launch the application.
+2. Interact with Milan using voice or text input.
+3. Connect your health data sources (optional).
+4. Receive personalized insights and recommendations.
 
 
 ## Challenges
 
-[Describe any challenges you faced during development and how you overcame them.]
+Integrating various APIs and ensuring seamless communication between different components was challenging.  Data privacy and security were also a key concern, requiring careful implementation of data handling procedures.
 
 
 ## Future Work
 
-[Outline potential future improvements or extensions to your project.]
+* Improve the accuracy and personalization of the AI model.
+* Expand integration with more health data sources.
+* Develop a mobile application for increased accessibility.
+* Implement advanced features like predictive health modeling.
 
 
 ## Contributing
 
-[If you're open to contributions, explain how others can contribute to your project.]
+We welcome contributions! Please fork the repository and submit pull requests.
 
 
 ## License
 
-[Specify the license under which your project is distributed (e.g., MIT, Apache 2.0).]
+MIT License
 
 
 ## Acknowledgements
 
 * Mistral AI
 * Alan
-* [Other sponsors/partners whose resources you used]
-
-
-## Contact
-
-[Provide contact information for your team (e.g., email addresses, Discord handles).]
+* Hugging Face
+* Google Cloud
+* Nebius
 
 
 ## Devpost Submission
 
-[Link to your Devpost submission.]
+(https://devpost.com/software/milan-qhp3u4)
