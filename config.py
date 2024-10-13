@@ -2,7 +2,7 @@ import os
 import toml
 
 # Path to the config.toml file
-CONFIG_PATH = os.path.join(os.path.dirname(__file__), "..", "config.toml")
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.toml")
 
 try:
     with open(CONFIG_PATH, "r") as f:
@@ -61,7 +61,7 @@ MISTRAL_API_KEY = config["api"]["mistral_api_key"]
 # Validation function
 def validate_config():
     """Validates essential configuration parameters."""
-    essential_paths = [MEDICAL_KNOWLEDGE_BASE_PATH]  # Example
+    essential_paths = []  # Example
     for path in essential_paths:
         if not os.path.exists(path):
             raise FileNotFoundError(f"Essential file not found: {path}. Check config.toml and data paths.")

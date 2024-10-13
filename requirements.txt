@@ -1,1 +1,5 @@
-toml==0.10.2
+toml
+gradio
+opencv-python
+pyaudio
+mistralai

@@ -21,11 +21,4 @@ video_frame_rate = 30
 [ui]  # If applicable
 ui_port = 5000
 
-[api] # You can put default values here, but environment variables will override them
-# mistral_api_key = "YOUR_MISTRAL_API_KEY" # Better to keep in environment variables
-# huggingface_api_key = "YOUR_HUGGINGFACE_API_KEY" # Better to keep in environment variables
-# google_cloud_credentials = "path/to/your/credentials.json" # Better to keep in environment variables
-# nebius_api_key = "YOUR_NEBIUS_API_KEY" # Better to keep in environment variables
-
-
 # ... other sections and parameters as needed ...

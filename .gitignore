@@ -157,3 +157,5 @@ cython_debug/
 # IDE
 .idea/
 .vscode/
+*.code-workspace
+.gradio/
